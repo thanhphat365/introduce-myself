@@ -1,0 +1,20 @@
+{% extends 'page/base.html' %} 
+{% load static %}
+{% block category %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}" />
+<h2>Skill</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-4  justify-content-center align-items-center ">
+            <img src="{% static 'img/html.png' %}" alt="" class="img"/>
+            <p id="p1">-Html</p>
+        </div>
+            <p id="p1">-Javascript</p>
+            <p id="p1">-Css</p>
+    </div>
+    <div class="col-xl-4 col-lg-4 col-md-4  justify-content-center align-items-center ">
+        <img src="{% static 'img/dj.png' %}" alt="">
+        <p>-Django</p>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends 'page/base.html' %} 
+{% load static %}
+{% block category %}
+<link rel="stylesheet" href="{% static 'style.css' %}" />
+<div class="row">
+    <div class="row">
+        <div class="col">
+            <img src="{% static 'img/img.jpg' %}" alt="" class="img"/>
+        </div>
+        <div class="col col-xl-3">
+            <p id="p1">Name : Thành Phát</p>
+            <p id="p1">Age : 16</p>
+        </div>
+        <div class="col col-xl 6">
+            <p>Study at : <span>THCS-THPT TriDuc education</span> </p>
+        </div>
+    </div>
+    <div class="row">
+        <b>Hotline </b>
+        <div class="col col-lg-1">
+            <a href="https://www.facebook.com/ThanhPhatK/" i class="bi bi-facebook"></i></a>
+        </div>
+        <div class="col">
+            <a href="https://github.com/thanhphat365" i class="bi bi-github"></i></a>
+        </div>
+    </div>
+</div>
+{% endblock %}
